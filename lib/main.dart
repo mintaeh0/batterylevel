@@ -1,4 +1,4 @@
-import 'package:batterylevel/home_view.dart';
+import 'package:batterylevel/battery_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: HomeView(),
+      home: BatteryView(),
     );
   }
 }
